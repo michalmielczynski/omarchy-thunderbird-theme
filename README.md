@@ -33,7 +33,7 @@ No polling, no Thunderbird restart, no dependency on Omarchy's hook system
 ## Install
 
 ```bash
-git clone https://github.com/<you>/omarchy-thunderbird-theme.git
+git clone https://github.com/jfuerwentsches/omarchy-thunderbird-theme.git
 cd omarchy-thunderbird-theme
 ./install.sh ~/.thunderbird/<your-profile>.default-release
 ```
@@ -68,6 +68,11 @@ it reads the same keys any `colors.toml` provides (`background`, `foreground`,
 maps them onto [Thunderbird's theme color keys](https://webextension-api.thunderbird.net/en/latest/theme.html).
 No rebuild step -- just re-run `omarchy theme set` (or restart Thunderbird)
 to see the change.
+
+## Related
+
+[omarchy-discord-theme](https://github.com/jfuerwentsches/omarchy-discord-theme)
+does the same thing for Discord (via Vencord's QuickCSS).
 
 ## License
 
