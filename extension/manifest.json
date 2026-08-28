@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Omarchy Theme Sync",
+  "version": "1.0.0",
+  "description": "Mirrors your Omarchy Linux theme colors into Thunderbird automatically, live, without a restart.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "omarchy-thunderbird-theme@fifue.cloud",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": ["theme", "nativeMessaging"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
